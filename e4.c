@@ -1,5 +1,6 @@
 #include <stdio.h>
-
+/*Se realizó el mismo proceso que en el ejercio e3. Cambiando la variable celcius. Y ahora la valiable fahr dependerá del ciclo while
+*/
 int main(void){
     int lower = 0; 
     int upper = 300;
