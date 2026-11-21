@@ -1,6 +1,13 @@
 #include <stdio.h> 
 #include <string.h>
 
+/* Utilice IA (inteligencia de Alberto). Es un amigo :3 de segundo año de la carrera de matemáticas, me ayudo proporcionandome
+ la página 
+https://stackoverflow.com/questions/7709452/how-to-read-string-from-keyboard-using-c
+para guiarme utilizando "fgets"
+
+*/
+
 int espacio(char ch){
     if (ch==' ') {
         return 1;    
