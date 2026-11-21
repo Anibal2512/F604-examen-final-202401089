@@ -6,6 +6,11 @@
 https://stackoverflow.com/questions/7709452/how-to-read-string-from-keyboard-using-c
 para guiarme utilizando "fgets"
 
+En el  código defini una función espacio, la cual me ayuda a verificar si el caracter es un espacio. Utilizando fgets evaluamos 
+la varialbe oración, su longitud en bytes, desde el standart input del teclado. El ciclo while me permitio leer la oración 
+en reversa, para así, cuando se detecte un caracter que no es un espacio, para el bucle de while y se le disminuye la longitud de
+la variable. 
+
 */
 
 int espacio(char ch){
