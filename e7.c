@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <string.h>
-
+/*Defino una función que me tomará la longitud de mi oración. Con el ciclo for lo utilizo para intercambiar el primer caracter 
+por el último, y lo hago para idx menor  a la mitad de la longitud de la oración, para evitar repeticiones. 
+Utilizo fgets como el ejercicio anterior.
+*/
 
 void reverse(char*str){
     int len = strlen(str);
