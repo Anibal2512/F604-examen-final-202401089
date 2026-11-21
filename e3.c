@@ -1,5 +1,7 @@
 #include <stdio.h>
-
+/*Definimos dos variables de tipo float. la variable "fahr" tomara valores de 0 a 300, avanzando 20 cada vez. 
+La variable "Celcius" dependerá del ciclo while para, a través de la operación definida, cambiar los datos de la variable "fahr"
+*/
 /* print Fahrenheit-Celsius table
 for f = 0, 20, ..., 300 */
 
